@@ -19,15 +19,15 @@ NickName: '天天向上'
 webtitle: '技术成就未来'
 bio: '技术成就未来'
 about: true
-aboutyou: '技术成就未来'
+aboutyou: '现就职于摩托邦,负责摩托邦APP和币物APP的后台设计及开发,目前从事主要研究方向为微服务,区块链,搜索引擎'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:401825317@qq.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='401825317'&site=qq&menu=yes
+  weixin: '/assets/weixinaccount.jpg' # 你的微信二维码存放的地址
+  qq: 'http://wpa.qq.com/msgrd?v=3&uin="401825317"&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='401825317'&site=qq&menu=yes
   github: ''
   Codepen: ''
   weibo: ''
