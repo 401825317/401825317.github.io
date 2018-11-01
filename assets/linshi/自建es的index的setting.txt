@@ -1,0 +1,365 @@
+{
+  "car_v2_2018_2_26": {
+    "aliases": {
+      "car_master": {}
+    },
+    "mappings": {
+      "secondcar": {
+        "properties": {
+          "@timestamp": {
+            "type": "date"
+          },
+          "@version": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "bpid": {
+            "type": "long"
+          },
+          "brand": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "brandid": {
+            "type": "long"
+          },
+          "caraddress": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "cc": {
+            "type": "long"
+          },
+          "commentcount": {
+            "type": "long"
+          },
+          "contacts": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "contactsphone": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "createtime": {
+            "type": "long"
+          },
+          "createuser": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "createusertype": {
+            "type": "long"
+          },
+          "des": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "detailspicurl": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "exteriorpicurl": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "favoritescount": {
+            "type": "long"
+          },
+          "firstonthecardtime": {
+            "type": "long"
+          },
+          "flawpicurl": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "from": {
+            "type": "long"
+          },
+          "hasofficial": {
+            "type": "long"
+          },
+          "hasolddrivercomment": {
+            "type": "long"
+          },
+          "host": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "keyword": {
+            "type": "text",
+            "fields": {
+              "ik": {
+                "type": "text",
+                "analyzer": "ik_max_word"
+              },
+              "ik_pinyin": {
+                "type": "text",
+                "analyzer": "ik_pinyin_analyzer"
+              }
+            }
+          },
+          "kilometer": {
+            "type": "float"
+          },
+          "lapsestate": {
+            "type": "long"
+          },
+          "lastrefreshtime": {
+            "type": "long"
+          },
+          "lastupdatetime": {
+            "type": "long"
+          },
+          "licenseplate": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "message": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "model": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "modelid": {
+            "type": "long"
+          },
+          "price": {
+            "type": "long"
+          },
+          "procedure": {
+            "type": "long"
+          },
+          "province": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "query": {
+            "properties": {
+              "match": {
+                "properties": {
+                  "hasofficial": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "secondcarid": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "size": {
+            "type": "long"
+          },
+          "state": {
+            "type": "long"
+          },
+          "style": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "tags": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "title": {
+            "type": "text",
+            "analyzer": "ik_pinyin_analyzer"
+          },
+          "transfercount": {
+            "type": "long"
+          },
+          "videodatamodel": {
+            "properties": {
+              "fileid": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "thumbUrl": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "videoDurantion": {
+                "type": "long"
+              },
+              "videoHeight": {
+                "type": "long"
+              },
+              "videoLength": {
+                "type": "long"
+              },
+              "videoUrl": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "videoWidth": {
+                "type": "long"
+              }
+            }
+          },
+          "videodatastr": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "viewcount": {
+            "type": "long"
+          }
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "number_of_shards": "5",
+        "provided_name": "car_v2_2018_2_26",
+        "max_result_window": "10000000",
+        "creation_date": "1519630011297",
+        "analysis": {
+          "filter": {
+            "my_pinyin": {
+              "lowercase": "true",
+              "keep_original": "true",
+              "remove_duplicated_term": "true",
+              "keep_separate_first_letter": "false",
+              "type": "pinyin",
+              "limit_first_letter_length": "16",
+              "keep_full_pinyin": "true"
+            }
+          },
+          "analyzer": {
+            "ik_pinyin_analyzer": {
+              "filter": [
+                "my_pinyin"
+              ],
+              "type": "custom",
+              "tokenizer": "ik_max_word"
+            }
+          }
+        },
+        "number_of_replicas": "1",
+        "uuid": "H8d4epwVRbOC1XxVIupnHg",
+        "version": {
+          "created": "5040099"
+        }
+      }
+    }
+  }
+}
